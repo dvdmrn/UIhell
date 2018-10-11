@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="fill" size="0.120000 0.078245" />
+    <ImageTarget name="test_card_target" size="1.000000 0.560910" />
+    <ImageTarget name="room_test" size="1.000000 1.122837" />
+    <ImageTarget name="lookout" size="1.000000 1.491590" />
+    <ImageTarget name="yppie" size="1.000000 1.144360" />
+    <ImageTarget name="smallboaty" size="1.000000 0.713360" />
+    <ImageTarget name="slothsmol" size="1.000000 0.989123" />
+    <ImageTarget name="testImage" size="0.090000 0.051429" />
+  </Tracking>
+</QCARConfig>
