@@ -69,11 +69,11 @@ List<GameObject> lineList = new List<GameObject>();
                             Mathf.PerlinNoise(0.5f, f * (ipm.interactionDensity*0.1f))*50f));
             
             // interactions per min
-            m_DataDiagram.InputPoint(lineList[1], new Vector2(0.01f,
+            m_DataDiagram.InputPoint(lineList[1], new Vector2(0.5f,
                                     ipm.ipm));
             
             // interaction density
-            m_DataDiagram.InputPoint(lineList[2], new Vector2(0.05f,
+            m_DataDiagram.InputPoint(lineList[2], new Vector2(0.5f,
                                     ipm.interactionDensity));
             // m_DataDiagram.InputPoint(lineList[3], new Vector2(0.08f,
             //                 (Mathf.Sin(Mathf.Tan(f)*Mathf.PerlinNoise(1f,f))*0.55f)+0.5f));
